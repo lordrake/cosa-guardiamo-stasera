@@ -1,0 +1,33 @@
+
+h1, h2 {
+  color: #FFF8E8;
+}
+
+
+table {
+  width: 100%;
+}
+
+td {
+
+}
+
+img {
+  width: 100%;
+}
+
+.movies-container {
+  color: #FFF8E8;
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 80px;
+}
+
+.selectedMovie,
+.selectedMovie table,
+.search-summary {
+  color: #FFF8E8;
+}

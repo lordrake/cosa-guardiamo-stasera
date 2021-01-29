@@ -1,0 +1,24 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+html {
+  box-sizing: border-box;
+}
+
+/*Inserisce qualcosa prima e dopo ogni elemento */
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  line-height: 1.4;
+  min-height: 100vh;
+  background: #990D35;
+}
+
+form {
+  max-width: 25em;
+  margin: 1em auto;
+}
